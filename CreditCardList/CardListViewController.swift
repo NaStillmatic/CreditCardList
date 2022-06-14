@@ -68,7 +68,7 @@ class CardListViewController: UITableViewController {
     
     // option 1
     let cardID = creditCardList[indexPath.row].id
-    ref.child("Item\(cardID)/isSelected").setValue(true)
+//    ref.child("Item\(cardID)/isSelected").setValue(true)
     
     // option 2
     ref.queryOrdered(byChild: "id").queryEqual(toValue: cardID).observe(.value) { [weak self] snapshot in
