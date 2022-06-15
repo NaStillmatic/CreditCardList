@@ -2,6 +2,6 @@
 
 Firebase Sample
 
-- Realtime Database
-- Firesotre Database (작성중)
+- Tab1: Realtime Database
+- Tab2: Firesotre Database
 
